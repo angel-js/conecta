@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'conecta.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'Conecta.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_pyscopg2',
+        'NAME': 'conecta2',
+        'USER': 'postgres',
+        'PASSWORD': '1436+Ccs',
+        'HOST': '127.0.0.1',
+        'DATABASE_PORT': '5432',
     }
 }
 
