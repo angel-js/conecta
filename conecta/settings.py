@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'conecta.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_pyscopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'conecta2',
         'USER': 'postgres',
         'PASSWORD': '1436+Ccs',
